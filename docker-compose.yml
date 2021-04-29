@@ -10,7 +10,7 @@ services:
      MYSQL_DATABASE: ghost
      MYSQL_USER: ghostuser
      MYSQL_PASSWORD: ocrpassword
-
+     NODE_ENV: production
  ghost:
    depends_on:
      - mysql
